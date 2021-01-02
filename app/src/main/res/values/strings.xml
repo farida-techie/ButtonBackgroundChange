@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BtnBackgroundChange</string>
+    <string name="default_button">Default Button</string>
+    <string name="outline_button">OutLine Button</string>
+    <string name="outline_with_icon">Outline With Icon</string>
+</resources>

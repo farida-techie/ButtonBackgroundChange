@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!--Default Button-->
+    <Button
+        android:text="@string/default_button"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:onClick="textMassage"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--OutLine Button-->
+    <!--set Style Outline-->
+    <Button
+        android:text="@string/outline_button"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:onClick="textMassage"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/purple_700"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--Button with Icon-->
+    <Button
+        android:text="@string/outline_with_icon"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:onClick="textMassage"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        app:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:textColor="@color/purple_700"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--Change Button Background-->
+    <!--but color is not change so you add
+    -->
+    <Button
+        android:text="Background Color Change"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:background="#29DA31"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/white"
+        app:strokeWidth="3dp"
+        app:backgroundTint="@null"
+        app:strokeColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:onClick="textMassage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--set Button shape-->
+    <Button
+        android:text="Background Button Shape"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape"
+        android:textColor="#FA43E7"
+        app:backgroundTint="@null"
+        android:layout_margin="10dp"
+        android:onClick="textMassage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--ok now run it-->
+
+</LinearLayout>
